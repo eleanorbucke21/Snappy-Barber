@@ -25,9 +25,9 @@ Users of the website will be able to find all the information they need to know 
 
 # Typography and color scheme #
 ## Font ##
-  I have chosen ubantu and heebo as a font as they give a modern look to the page.
+* I have chosen ubantu and heebo as a font as they give a modern look to the page.
  ## color scheme ##
- I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
+* I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
 
 ## Wireframes ##
 <img src="markdown-demo/home.png">
