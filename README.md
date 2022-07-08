@@ -23,5 +23,11 @@ Users of the website will be able to find all the information they need to know 
 * This section is a form that users must enter their name, email and phone number in order to submit.
 * It will consist of radio button answers.
 
+# Typography and color scheme #
+## Font ##
+  I have chosen ubantu and heebo as a font as they give a modern look to the page.
+ ## color scheme ##
+ I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
+
 ## Wireframes ##
 ![home page](url='https://www.flickr.com/photos/195972282@N06/52202149303/in/dateposted-public/')
