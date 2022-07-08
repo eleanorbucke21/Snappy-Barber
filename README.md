@@ -30,4 +30,6 @@ Users of the website will be able to find all the information they need to know 
  I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
 
 ## Wireframes ##
-![home page](url='https://www.flickr.com/photos/195972282@N06/52202149303/in/dateposted-public/')
+<img src="markdown-demo/home.png">
+<img src="markdown-demo/Gallery.png">
+<img src="markdown-demo/Contact.png">
