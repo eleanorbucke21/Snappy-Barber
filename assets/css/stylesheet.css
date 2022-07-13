@@ -53,5 +53,8 @@ h1 {
 /* hero-image */
 
 #hero-image {
-    
+    height: auto;
+    max-width: 100%;
+    background-size: contain;
+    border: 2px solid #708090;
 }
