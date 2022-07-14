@@ -100,3 +100,16 @@ footer {
     padding: 5%;
     color: #708090;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+#photos > img {
+    width: 100%;
+}
