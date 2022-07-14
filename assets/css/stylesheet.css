@@ -122,9 +122,7 @@ footer {
 /* contact and questionnaire */
 
 #winner {
-    height: 100%;
-    max-width: 100%;
-    background-size: fill;
-    position: center center;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url('../images/rsz_1pexels-josh-sorenson-995300_tpt1vn.png');
 }
