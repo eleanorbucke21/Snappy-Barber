@@ -106,10 +106,21 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 2px;
 }
 
 #photos > img {
+    padding: 2px;
     width: 100%;
+}
+
+/* contact and questionnaire */
+
+#winner {
+    height: 100%;
+    max-width: 100%;
+    background-size: fill;
+    position: center center;
+    background-image: url('../images/rsz_1pexels-josh-sorenson-995300_tpt1vn.png');
 }
