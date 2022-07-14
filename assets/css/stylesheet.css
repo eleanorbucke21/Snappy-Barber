@@ -21,7 +21,7 @@ h1 {
 }
 
 #logo {
-    float: left;
+    display: inline-block;
     font-size: 280%;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 #menu li {
-    float: right;
+    display: inline-block;
     margin-right: 30px;
     list-style-type: none;
 }
