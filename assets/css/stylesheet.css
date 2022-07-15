@@ -74,12 +74,35 @@ h1 {
 }
 
 table, th, td {
-    border: 2px solid #708090;
-    background-color: rgb(255, 255, 255);
+    border: 2px;
 }
 
 th, td {
     border-spacing: 30px;
+}
+
+/* contact info */
+
+#contact {
+    margin-bottom: 50px;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+	float: right;
 }
 
 /* footer */
