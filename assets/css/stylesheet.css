@@ -131,12 +131,21 @@ footer {
     height: auto;
 }
 
+legend {
+    text-decoration: underline;
+}
+
+legend > p {
+    text-decoration: underline;
+}
+
 #winner-box {
-    background-color: #808080;
+    background-color: rgb(112, 128, 144, 0.5);
     position: absolute;
     top: 50%;
     left: 50%;
     border: 2px solid #fff;
+    text-align: center;
 }
 
 .text-white {
