@@ -2,6 +2,8 @@
 The barber website is a page designed to showcase the barbers work and services. It is aimed at men who want a haircut or beard attended to. 
 Users of the website will be able to find all the information they need to know about the barber: About the barber, pricing, contact information. The site is targeted towards men and boys who want a hair cut and beard attended to. 
 
+:desktop_computer: [Live Website] (https://eleanorbucke21.github.io/Snappy-Barber/)
+
 # Features #
 ## Navigation ##
 * Featured at the top of the page, the navigation shows the Barber shop name in the left corner.
