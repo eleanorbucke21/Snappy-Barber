@@ -9,26 +9,24 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    color: #708090;
-    background-color: rgb(0, 0, 0);
+    color: black;
 }
 
 /* headings and logo */
 
 #header {
-    background-color: black;
     padding: 30px;
 }
 
 h1 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
-    color: #708090;
 }
 
 #logo {
-    display: inline-block;
-    font-size: 280%;
+    float: left;
+    font-size: 400%;
+    color: #000000;
 }
 
 /* navigation links */
@@ -37,8 +35,12 @@ h1 {
     font-size: 110%;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
-    display: inline;
+    float: right;
     margin-right: 30px;
     list-style-type: none;
 }
@@ -49,20 +51,34 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #708090;
+    border-bottom: 2px solid #000000;
 }
 
 .active {
-    border-bottom: 2px solid #708090;
+    border-bottom: 2px solid #000000;
 }
 
-/* hero-image */
+/* Hero-image */
 
 #hero-image {
-    height: 100%;
-    max-width: 100%;
-    background-size: fill;
-    position: center center;
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    object-fit: contain;
+}
+
+/* about-us */
+
+#about-us {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+#about-us > h2 {
+    text-decoration: underline;
+
 }
 
 /* services table */
@@ -85,6 +101,12 @@ th, td {
 
 #contact {
     margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact > h2, h3 {
+    text-decoration: underline;
 }
 
 .contact-boxes-container {
@@ -105,26 +127,6 @@ th, td {
 	float: right;
 }
 
-/* footer */
-
-footer {
-    margin-bottom: 50px;
-    height: 150px;
-}
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: #708090;
-}
 
 /* gallery */
 
@@ -142,7 +144,11 @@ footer {
     width: 100%;
 }
 
-/* questionnaire */
+    /* questionnaire */
+
+.form-section {
+    clear: center;
+}
 
 #winner {
     padding-left: 30px;
@@ -177,10 +183,8 @@ legend > p {
 
 .box {
     width: 33%;
-	margin: 1rem 0;
+    margin: 1rem 0;
 }
-
-
 /* contact */
 
 #map-wrapper {
@@ -196,3 +200,25 @@ legend > p {
         padding-left: 30px;
         padding-right: 30px;
     }
+
+
+    /* footer */
+
+footer {
+    margin-top: 50px;
+    height: 150px;
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #708090;
+}
