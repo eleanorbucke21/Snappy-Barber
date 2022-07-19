@@ -105,14 +105,17 @@ td {
 /* competition */
 
 #shaving-images {
-    display: inline;
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    max-width: 100%;
+    max-height: 300px;
 }
 
 #shaving-images > img {
     padding: 2px;
-    width: 100%;
+    width: 33.3%;
+    display: inline-block;
 }
 
 .competition-form {
