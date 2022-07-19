@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 #header {
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -35,7 +35,8 @@ h1 {
     font-size: 110%;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -76,7 +77,7 @@ h1 {
     padding-top: 50px;
 }
 
-#about-us > h2 {
+#about-us>h2 {
     text-decoration: underline;
 
 }
@@ -89,13 +90,20 @@ h1 {
     margin-right: auto;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px;
 }
 
-th, td {
+th,
+td {
     border-spacing: 30px;
 }
+
+/* competition */
+
+
 
 /* contact info */
 
@@ -105,7 +113,8 @@ th, td {
     padding-right: 30px;
 }
 
-#contact > h2, h3 {
+#contact>h2,
+h3 {
     text-decoration: underline;
 }
 
@@ -117,14 +126,14 @@ th, td {
 .contact-box-left {
     width: 250px;
     margin-top: -20px;
-	float: left;
+    float: left;
 }
 
 .contact-box-right {
     width: 250px;
     text-align: right;
     margin-top: -20px;
-	float: right;
+    float: right;
 }
 
 
@@ -139,98 +148,59 @@ th, td {
     padding-right: 30px;
 }
 
-#photos > img {
+#photos>img {
     padding: 2px;
     width: 100%;
 }
 
-    /* questionnaire */
 
-.form-section {
-    clear: center;
-}
-
-#winner {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#shaving {
-    width: 100%;
-    height: auto;
-}
-
-legend {
-    text-decoration: underline;
-}
-
-legend > p {
-    text-decoration: underline;
-}
-
-#winner-box {
-    background-color: rgb(112, 128, 144, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 2px solid #fff;
-    text-align: center;
-}
-
-.text-white {
-    color: #fff;
-}
-
-.box {
-    width: 33%;
-    margin: 1rem 0;
-}
 /* contact */
 
 #map-wrapper {
 
     height: 300px;
     margin-bottom: 100px;
-    }
-    
-    .map-responsive{
+}
 
-        overflow:hidden;
-    
-        padding-bottom:56.25%;
-    
-        position:relative;
-    
-        height:0;
-    
-    }
-    
-    .map-responsive iframe{
-    
-        left:0;
-    
-        top:0;
-    
-        height:100%;
-    
-        width:100%;
-    
-        position:absolute;
-    
-    }
+.map-responsive {
+
+    overflow: hidden;
+
+    padding-bottom: 56.25%;
+
+    position: relative;
+
+    height: 0;
+
+}
+
+.map-responsive iframe {
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: absolute;
+
+}
 
 
-    /* footer */
+/* footer */
 
 footer {
     margin-top: 50px;
     height: 150px;
 }
+
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
