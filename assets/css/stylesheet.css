@@ -64,6 +64,7 @@ h1 {
 #hero-image {
     height: auto;
     width: 100%;
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     object-fit: contain;
@@ -103,6 +104,25 @@ td {
 
 /* competition */
 
+#shaving-images {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#shaving-images > img {
+    padding: 2px;
+    width: 100%;
+}
+
+.competition-form {
+    margin: 150px 10% 0 0;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    padding: 30px;
+}
 
 
 /* contact info */
@@ -165,11 +185,8 @@ h3 {
 .map-responsive {
 
     overflow: hidden;
-
     padding-bottom: 56.25%;
-
     position: relative;
-
     height: 0;
 
 }
@@ -177,13 +194,9 @@ h3 {
 .map-responsive iframe {
 
     left: 0;
-
     top: 0;
-
     height: 100%;
-
     width: 100%;
-
     position: absolute;
 
 }
