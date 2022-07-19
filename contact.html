@@ -35,78 +35,75 @@
 
     <section>
         <div id="shaving-images">
-            <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1657715962/Snappy/pexels-josh-sorenson-995300_tpt1vn.jpg">
-            <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658252052/Snappy/pexels-nikolaos-dimou-1319459_m5thaa.jpg">
-            <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658252245/Snappy/pexels-rodnae-productions-7697221_vfqtyr.jpg">
-        </div>
+            <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1657715962/Snappy/pexels-josh-sorenson-995300_tpt1vn.jpg"
+                style="width: 100%;">
+            <div class="comp">
+                <form class="competition-form">
+                    <fieldset>
+                        <legend> Win a Year of Free Haircuts </legend>
+
+                        <div>
+                            <label for="name-field"> Name: </label>
+                            <input type="full_name_2" placeholder="Your Name" />
+                        </div>
+                        <div>
+                            <label for="email"> Email:</label>
+                            <input type="email" name="email" placeholder="Email Address" />
+                        </div>
+
+                        <label for="age" class="blockl=-label">Age:</label>
+                        <select id="age" name="age" required>
+                            <option value="under-20">Under 20</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Questionnaire </legend>
+                        <p> How often do you get your hair cut? </p>
+
+                        <input type="radio" id="0-2times" value="0-2times" name="visit-frequency" required />
+                        <label type="radio" value="0-2times"> 0-2 times a month </label>
+                        <br>
+                        <input type="radio" id="3-6times" value="3-6times" name="visit-frequency" required />
+                        <label type="radio" value="3-6times"> 3-6 times a month </label>
+                        <br>
+                        <input type="radio" id="2-4times" value="2-4times" name="visit-frequency" required />
+                        <label type="radio" value="2-4times"> 2-4 times a Year </label>
+                        <br>
+                        <input type="radio" id="4-7times" value="4-7times" name="visit-frequency" required />
+                        <label type="radio" value="4-7times"> 4-7 times a Year </label>
+                        <br>
+                        <p> How likely are you to recommend us to a friend? </p>
+                        <div>
+                            <input type="checkbox" id="extremely-likely-checkbox" name="extremely-likely">
+                            <label for="extremely-likely-checkbox"> Extremely likely</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="very-likely-checkbox" name="very-likely">
+                            <label for="very-likely-checkbox">very likely</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="not-likely-checkbox" name="not-likely">
+                            <label for="not-likely-checkbox"> Not likely</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="wont-checkbox" name="wont-likely">
+                            <label for="wont-checkbox"> Won't recommend </label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enter Competition">
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
     </section>
 
-        <section>
-            <form class="competition-form">
-                <fieldset>
-                    <legend> Win a Year of Free Haircuts </legend>
-
-                    <div>
-                        <label for="name-field"> Name: </label>
-                        <input type="full_name_2" placeholder="Your Name" />
-                    </div>
-                    <div>
-                        <label for="email"> Email:</label>
-                        <input type="email" name="email" placeholder="Email Address" />
-                    </div>
-
-                    <label for="age" class="blockl=-label">Age:</label>
-                    <select id="age" name="age" required>
-                        <option value="under-20">Under 20</option>
-                        <option value="30s">30-39</option>
-                        <option value="40s">40-49</option>
-                        <option value="50s">50-59</option>
-                        <option value="60+">60+</option>
-                    </select>
-                </fieldset>
-
-                <fieldset>
-                    <legend> Questionnaire </legend>
-                    <p> How often do you get your hair cut? </p>
-
-                    <input type="radio" id="0-2times" value="0-2times" name="visit-frequency" required />
-                    <label type="radio" value="0-2times"> 0-2 times a month </label>
-                    <br>
-                    <input type="radio" id="3-6times" value="3-6times" name="visit-frequency" required />
-                    <label type="radio" value="3-6times"> 3-6 times a month </label>
-                    <br>
-                    <input type="radio" id="2-4times" value="2-4times" name="visit-frequency" required />
-                    <label type="radio" value="2-4times"> 2-4 times a Year </label>
-                    <br>
-                    <input type="radio" id="4-7times" value="4-7times" name="visit-frequency" required />
-                    <label type="radio" value="4-7times"> 4-7 times a Year </label>
-                    <br>
-                    <p> How likely are you to recommend us to a friend? </p>
-                    <div>
-                        <input type="checkbox" id="extremely-likely-checkbox" name="extremely-likely">
-                        <label for="extremely-likely-checkbox"> Extremely likely</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="very-likely-checkbox" name="very-likely">
-                        <label for="very-likely-checkbox">very likely</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="not-likely-checkbox" name="not-likely">
-                        <label for="not-likely-checkbox"> Not likely</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="wont-checkbox" name="wont-likely">
-                        <label for="wont-checkbox"> Won't recommend </label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enter Competition">
-                    </div>
-
-                </fieldset>
-            </form>
-        </section>
-
-<br>
+    <br>
 
     <section id="contact">
         <h2 class="text-center">Contact</h2>

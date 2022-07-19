@@ -59,6 +59,14 @@ h1 {
     border-bottom: 2px solid #000000;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
 /* Hero-image */
 
 #hero-image {
@@ -104,19 +112,23 @@ td {
 
 /* competition */
 
+
 #shaving-images {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    max-width: 100%;
-    max-height: 300px;
+    width: 100%;
+    height: auto;
+
 }
 
-#shaving-images > img {
-    padding: 2px;
-    width: 33.3%;
-    display: inline-block;
-}
+.comp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
 
 .competition-form {
     margin: 150px 10% 0 0;
@@ -125,6 +137,7 @@ td {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     padding: 30px;
+    text-align: center;
 }
 
 
@@ -152,13 +165,25 @@ h3 {
     float: left;
 }
 
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .contact-box-right {
     width: 250px;
+    padding-top: 30px;
     text-align: right;
     margin-top: -20px;
     float: right;
 }
 
+.bold {
+    font-weight: bold;
+}
 
 /* gallery */
 
