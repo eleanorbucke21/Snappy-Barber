@@ -67,6 +67,7 @@ h1 {
     text-align: right;
 }
 
+
 /* Hero-image */
 
 #hero-image {
@@ -88,16 +89,31 @@ h1 {
 
 #about-us>h2 {
     text-decoration: underline;
+    text-align: center;
 
 }
 
+
 /* services table */
 
-#services {
+#services-table {
+    margin: 150px 10% 0 0;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    
     position: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 
 table,
 th,
@@ -113,7 +129,7 @@ td {
 /* competition */
 
 
-#shaving-images {
+#form-background {
     padding-top: 50px;
     width: 100%;
     height: auto;
@@ -129,7 +145,7 @@ td {
   }
   
 
-.competition-form {
+.form-box {
     margin: 150px 10% 0 0;
     border-radius: 12px;
     color: #fff;
@@ -139,6 +155,16 @@ td {
     text-align: center;
 }
 
+.form-box > h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    background-color: #708090;
+    color: #000000;
+    padding: 10px;
+}
 
 /* contact info */
 
