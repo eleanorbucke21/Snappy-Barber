@@ -73,22 +73,27 @@ h1 {
 
 /* Hero-image */
 
-#hero-image {
-    height: 400px;;
-    width: 80%;
-    max-width: 960px;
-    padding-top: 30px;
-    object-fit: contain;
-    margin-left: 4%;
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
+
+.hero-image {
+
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels\ barbers.webp') no-repeat;
+    background-size: contain;
+}
+
+
 
 /* about-us */
 
 #about-us {
-    margin-top: 35%;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 50px;
     text-align: center;
     
 }
