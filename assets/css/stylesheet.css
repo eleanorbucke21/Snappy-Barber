@@ -29,7 +29,8 @@ h1 {
     float: left;
     font-size: 400%;
     color: #000000;
-    padding-left: 30px;
+    padding-left: 5%;
+    padding: 25%;
 }
 
 /* navigation links */
@@ -310,12 +311,3 @@ footer {
 }
 
 /* media queries */
-
-
-@media screen(max-width 769px) {
-
-    .form-box {
-        padding: 30px;
-    }
-
-}
