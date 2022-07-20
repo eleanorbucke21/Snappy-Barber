@@ -35,3 +35,23 @@ Users of the website will be able to find all the information they need to know 
 <img src="markdown-demo/home.png">
 <img src="markdown-demo/Gallery.png">
 <img src="markdown-demo/Contact.png">
+
+## Technologies
+
+### Languages used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML5) - Add content and formatting to web page.
+
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Add styling and colours to web page.
+
+### Frameworks, Libraries and Programs Used
+
+- [Gitpod](https://gitpod.io/) - web-based editor optimised for debugging, testing, syntax highlighting and extension support
+
+- [Git](https://git-scm.com/) - used to allow for tracking of any changes in the code and for the version control.
+
+- [Github](https://github.com/) - used to host the project files and host webpage onto the internet
+
+- [Fontawesome](https://fontawesome.com/) - to insert icons in the website to make site more visually appealing and easy to navigate.
+
+- [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
