@@ -4,6 +4,8 @@ Users of the website will be able to find all the information they need to know 
 
 :desktop_computer: [Live Website] (https://eleanorbucke21.github.io/Snappy-Barber/)
 
+:open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/Snappy-Barber)
+
 # Features #
 ## Navigation ##
 * Featured at the top of the page, the navigation shows the Barber shop name in the left corner.
@@ -55,3 +57,40 @@ Users of the website will be able to find all the information they need to know 
 - [Fontawesome](https://fontawesome.com/) - to insert icons in the website to make site more visually appealing and easy to navigate.
 
 - [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
+
+## Testing
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly, and to test responsiveness in different screen sizes.
+
+## Deployment
+
+This website was published using GitHub Pages.
+
+- Navigate to [GitHub](https://github.com/) and log in.
+
+- Navigate to your repositories and find the project you want to deploy
+
+- Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+
+- Scroll down till you see 'Pages' heading on the left hand side
+
+- Under the 'Source' click on the dropdown and select 'master' or 'main' branch and click save
+
+- The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
+
+- It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
+
+- Congratulations you have deployed your project!
+
+## Credits
+
+### Media
+
+[man with hair tools] (https://www.pexels.com/photo/person-holding-hair-straightener-8468144/![image](https://user-images.githubusercontent.com/107644138/180242551-3950ccc8-a45d-4df3-8c37-f1624e0b0285.png)
+)
+
+
+### Content
+- [Poppins - Google font](https://fonts.google.com/specimen/Roboto)
+
+-[Roborto - Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins)
