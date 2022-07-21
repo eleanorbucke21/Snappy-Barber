@@ -30,7 +30,7 @@ h1 {
     font-size: 400%;
     color: #000000;
     padding-left: 5%;
-    padding: 25%;
+    padding: 30px;
 }
 
 /* navigation links */
@@ -93,6 +93,7 @@ h1 {
 /* about-us */
 
 #about-us {
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -173,8 +174,7 @@ td {
     transform: translate(-50%, -50%);
     max-height: 80%;
     width: 90%;
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 43%;
 }
 
 
