@@ -60,7 +60,10 @@ Users of the website will be able to find all the information they need to know 
 
 ## Testing
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly, and to test responsiveness in different screen sizes.
+    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements, and to test responsiveness in different screen sizes.
+
+* Responsiveness
+ [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
 ## Deployment
 
