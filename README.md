@@ -25,9 +25,9 @@ GALLERY PAGE
 
 CONTACT PAGE
 
--As a user I would like to see opening and closing times.
--As a user I would like to see where the shop is situated on a map.
--As a user I would like to enter a competition for free hair cuts.
+- As a user I would like to see opening and closing times.
+- As a user I would like to see where the shop is situated on a map.
+- As a user I would like to enter a competition for free hair cuts.
 
 # Features #
 ## Navigation ##
@@ -90,6 +90,8 @@ CONTACT PAGE
             alt="Valid CSS!" /> was used to test for error codes in the CSS.
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
+ * [Lighthouse] 
+ 
 * Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
  
