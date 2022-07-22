@@ -8,6 +8,27 @@ Users of the website will be able to find all the information they need to know 
 
 :open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/Snappy-Barber)
 
+## UX 
+
+### User stories
+
+HOMEPAGE
+
+- As a user I want to have a navigation bar so I can easily get to different pages.
+- As a user I want to know what the site is about so I know what to expect from it.
+- As a user I want to see the team behind the page with links to their github so that I can find out more about them.
+
+GALLERY PAGE
+
+-As a user I want to see pictures of the barbers previous work.
+-As a user I want to see pictures of where the barbers work.
+
+CONTACT PAGE
+
+-As a user I would like to see opening and closing times.
+-As a user I would like to see where the shop is situated on a map.
+-As a user I would like to enter a competition for free hair cuts.
+
 # Features #
 ## Navigation ##
 * Featured at the top of the page, the navigation shows the Barber shop name in the left corner.
@@ -66,6 +87,27 @@ Users of the website will be able to find all the information they need to know 
 
 * Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+ 
+ ### Manual Testing
+
+* Browser Compatibility
+
+     Browser | Outcome | Pass/Fail 
+     --- | --- | ---
+     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+     Safari | No appearance, responsiveness nor functionality issues. | Pass
+     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+     Firefox | No appearance, responsiveness nor functionality issues. | Pass
+     
+ * Device compatibility
+
+     Device | Outcome | Pass/Fail
+    --- | --- | ---
+    Laptop | No appearance, responsiveness nor functionality issues. | Pass
+    ipad mini | No appearance, responsiveness nor functionality issues. | Pass
+    Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | Pass
+    Samsung s20 | No appearance, responsiveness nor functionality issues. | Pass
+    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
 
 ## Deployment
 
