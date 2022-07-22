@@ -310,6 +310,16 @@ footer {
 /* media queries */
 @media (min-width: 992px) and (max-width : 1200px) {
 
-   
+   #hero-outer {
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+   }
+
+   .hero-image {
+
+    height: 600px;
+    width: 90%;
+   }
 
 }
