@@ -323,3 +323,19 @@ footer {
    }
 
 }
+
+@media (min-width: 1200px) and (max-width : 2300px) {
+
+    #hero-outer {
+     height: 600px;
+     width: 90%;
+     margin-left: auto;
+    }
+ 
+    .hero-image {
+ 
+     height: 600px;
+     width: 90%;
+    }
+ 
+ }
