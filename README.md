@@ -91,6 +91,9 @@ CONTACT PAGE
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
  * [Lighthouse] 
+    	- Index Page
+            <img src="markdown-demo/index page.png">
+            
  
 * Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
