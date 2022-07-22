@@ -133,8 +133,15 @@ This website was published using GitHub Pages.
 
 ### Media
 
-[man with hair tools] (https://www.pexels.com/photo/person-holding-hair-straightener-8468144/![image](https://user-images.githubusercontent.com/107644138/180242551-3950ccc8-a45d-4df3-8c37-f1624e0b0285.png)
-)
+[Barber hair tools] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_hair_tools_ikh4v6.webp)
+[Man getting straight razor saved] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338281/Snappy/gallery/pexels_man_straight_razor_vj2ffo.webp)
+[Man getting beard trimmed] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_beard_trim_jbfody.webp)
+[Barber cleaning mans collar] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339412/Snappy/gallery/pexels_barber_cleaning_mans_collar_oyvoaz.webp)
+[straight razor and shaving cream brush] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_shaving_brish_and_straight_razor_ocgrx3.webp)
+[Man getting hair trimmed] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338280/Snappy/gallery/pexels_hair_spray_ex6bw3.webp)
+[Image of a barber pole outside the shop] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338902/Snappy/gallery/Pexels_Barber_Pole_wjjy0u.webp)
+[Customer getting hair trimmed] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_fringe_trim_btjejb.webp)
+[Man getting beard shaved by straight razor] (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339026/Snappy/gallery/ezgif.com-gif-maker_tueq6h.webp)
 
 
 ### Content
