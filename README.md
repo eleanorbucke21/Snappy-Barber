@@ -96,12 +96,48 @@ CONTACT PAGE
  * [Lighthouse] 
     	- Index Page
             <img src="markdown-demo/index page.png">
- ### Test cases
- ## Index Page
-  * Input - Clicked on contact 
-  * Output - Went to contact page
+ ## Test cases
+ ### Index Page
+ Input | Output 
+    --- | --- 
+ Clicked on Gallery in navigation bar. | It went to the Gallery page.
+ Clicked on Contact in navigation bar. | It went to the Contact page.
+ Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
+ Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
+ Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
  
-            
+ ### Gallery Page
+ Input | Output 
+    --- | --- 
+ Clicked on Home in navigation bar. | It went to the index page.
+ Clicked on Contact in navigation bar. | It went to the Contact page.
+ Clicked on the logo in the header. | It went to the index page.
+ Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
+ Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
+ Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
+ 
+ ### Contact Page
+ Input | Output 
+    --- | --- 
+ Clicked on Home in navigation bar. | It went to the index page.
+ Clicked on the logo in the header. | It went to the index page.
+ Clicked on Contact in navigation bar. | It went to the Contact page.
+ Clicked on Gallery in navigation bar. | It went to the Gallery page.
+ Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
+ Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
+ Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
+ Clicked on Enter Competition button with no entries | It said please out field in name.
+ Clicked on Enter Competition button with name filled in | It said please out field in email.
+ Clicked on Enter Competition button with name filled in |  It said please out field in name.
+ 
+ ###Competition Page
+ Clicked on Home in navigation bar. | It went to the index page.
+ Clicked on Gallery in navigation bar. | It went to the Gallery page.
+ 
+ Clicked on the logo in the header. | It went to the index page.
+ Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
+ Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
+ Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
  
 * Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
