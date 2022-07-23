@@ -44,6 +44,11 @@ h1 {
     line-height: 75px;
 }
 
+#menu ul {
+    width: 300px;
+    float: right;
+}
+
 #menu li {
     float: right;
     margin-right: 30px;
@@ -200,7 +205,8 @@ td {
     display: inline-block;
 }
 
-.contact-box-center, .contact-box-right {
+.contact-box-center,
+.contact-box-right {
     line-height: 174%;
 }
 
@@ -277,7 +283,7 @@ footer {
 
 /* media queries */
 
-@media (min-width: 820px) and (max-width : 1200px) {
+@media (min-width: 768px) and (max-width : 1200px) {
 
     #hero-outer {
         height: 600px;
@@ -292,7 +298,7 @@ footer {
     }
 
     .container {
-        margin: 8% 0% 12% 0;
+        margin: 18% 0% 12% 0;
         background-color: rgba(60, 60, 60, 0.6);
     }
 
@@ -311,29 +317,39 @@ footer {
         height: 600px;
         width: 90%;
     }
-    .container {
-        margin: 8% 0% 12% 0;
-        background-color: rgba(60, 60, 60, 0.6);
-    }
-}
-
-
-@media (min-width: 2201px) and (max-width : 5120px) {
-
-    #hero-outer {
-        height: 600px;
-        width: 90%;
-        margin-left: auto;
-    }
-
-    .hero-image {
-
-        height: 600px;
-        width: 90%;
-    }
 
     .container {
-        margin: 8% 0% 12% 0;
+        margin: 4% 0% 12% 0;
         background-color: rgba(60, 60, 60, 0.6);
     }
-}
+
+    .opening-time {
+        font-size: 1rem;
+    }
+
+
+    .contact-box-right,
+    .contact-box-center {
+        margin: 0% -12% 4% 11%
+    }
+
+
+    @media (min-width: 2201px) and (max-width : 5120px) {
+
+        #hero-outer {
+            height: 600px;
+            width: 90%;
+            margin-left: auto;
+        }
+
+        .hero-image {
+
+            height: 600px;
+            width: 90%;
+        }
+
+        .container {
+            margin: 0% 0% 12% 0;
+            background-color: rgba(60, 60, 60, 0.6);
+        }
+    }
