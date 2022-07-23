@@ -35,11 +35,6 @@ CONTACT PAGE
 * The other navigation links are to the right: Home and Services that link to different sections on the same page. Gallery and Contact will link to other pages.
 * The navigation is in a font that is modern and a color that contrasts with the background.
 * The navigation clearly tells the user the name of the barber shop and website makes the different sections of information easy to find.
-
-## Future Features ##
-
-- In the future I wouls like to add a slide show to the gallery page.
-
 ## The Header ##
 * The header shows the name of the club using the color chosen: Slate Grey. 
 * The header explains that is a barber shop.
@@ -53,6 +48,10 @@ CONTACT PAGE
 ## The competition section ##
 * This section is a form that users must enter their name, email and phone number in order to submit.
 * It will consist of radio button answers.
+
+## Future Features ##
+
+- In the future I wouls like to add a slide show to the gallery page.
 
 # Typography and color scheme #
 ## Font ##
@@ -97,10 +96,26 @@ CONTACT PAGE
  * [Lighthouse] 
     	- Index Page
             <img src="markdown-demo/index page.png">
+ ### Test cases
+ ## Index Page
+  * Input - Clicked on contact 
+  * Output - Went to contact page
+ 
             
  
 * Responsiveness
  [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+ 
+ The site has been tested on various sizes such as those listed below.
+ 
+ Mobile:
+ 375x667 / 360x740 / 412x915 / 414x896
+ 
+ Tablet:
+ 768x1024 / 820x1180 / 912x1368 
+ 
+ Monitor:
+ 1280x1024 / 1600x900 / 2560x1440 / 3440x1440
  
  ### Manual Testing
 
