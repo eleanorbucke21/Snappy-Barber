@@ -94,9 +94,9 @@ CONTACT PAGE
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
  # Lighthouse
-    https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png "Index Page"
-     - Gallery Page
-          https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png
+    [1]: https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png "Index Page"
+    [2]: https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png "Gallery Page"
+          
             
  ## Test cases
  ### Index Page
