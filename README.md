@@ -131,7 +131,8 @@ CONTACT PAGE
 | Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | Pass
 | Clicked on Enter Competition button with no entries | It said please out field in name. | Pass
 | Clicked on Enter Competition button with name filled in | It said please out field in email. | Pass
-| Clicked on Enter Competition button with name filled in |  It said please out field in name. | Pass
+| Clicked on Enter Competition button with email filled in |  It said please out field in name. | Pass
+| Clicked on Enter Competition with form filled out | It went to the Confirmation page. | Pass
  
  ### Competition Page
  
