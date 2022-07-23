@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header id="header">
+    <header class="header">
         <a href="index.html">
             <h1 id="logo"> Snappy Barber <i class="fa-solid fa-scissors"></i> </h1>
         </a>
@@ -34,121 +34,115 @@
     </header>
 
     <section>
-        <div id="container">
-            <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658334933/Snappy/ezgif.com-gif-maker_nu7j33.webp"
-                alt="Barber chair infront of mirror">
-            <div class="comp">
-                <form class="form-box">
-                    <fieldset>
-                        <h2> Win a Year of Free Haircuts <i class="fa-solid fa-scissors"></i> </h2>
+        <div class="container">
+            <form class="form-box">
+                <fieldset>
+                    <h2> Win a Year of Free Haircuts <i class="fa-solid fa-scissors"></i> </h2>
 
-                        <div>
-                            <label for="name-field">Name</label>
-                            <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-                        </div>
-                        <div>
-                            <label for="email-field">Email</label>
-                            <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                        </div>
+                    <div>
+                        <label for="name-field">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email-field">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
 
-                        <label for="age" class="blockl=-label">Age:</label>
-                        <select id="age" name="age" required>
-                            <option value="" disabled>Choose from the following</option>
-                            <option value="">Under 20</option>
-                            <option value="30s">30-39</option>
-                            <option value="40s">40-49</option>
-                            <option value="50s">50-59</option>
-                            <option value="60+">60+</option>
-                        </select>
-                    </fieldset>
+                    <label for="age" class="blockl=-label">Age:</label>
+                    <select id="age" name="age" required>
+                        <option value="" disabled>Choose from the following</option>
+                        <option value="">Under 20</option>
+                        <option value="30s">30-39</option>
+                        <option value="40s">40-49</option>
+                        <option value="50s">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </fieldset>
 
-                    <fieldset>
-                        <legend> Questionnaire </legend>
-                        <p> How often do you get your hair cut? </p>
+                <fieldset>
+                    <legend> Questionnaire </legend>
+                    <p> How often do you get your hair cut? </p>
 
-                        <input type="radio" id="0-2-times-radio" name="visit-frequency" required />
-                        <label for="0-2-times-radio"> 0-2 times a month </label>
-                        <br>
-                        <input type="radio" id="3-6-times-radio" name="visit-frequency" required />
-                        <label for="3-6-times-radio"> 3-6 times a month </label>
-                        <br>
-                        <input type="radio" id="2-4-times-radio" name="visit-frequency" required />
-                        <label for="2-4-times-radio"> 2-4 times a Year </label>
-                        <br>
-                        <input type="radio" id="4-7-times-radio" name="visit-frequency" required />
-                        <label for="4-7-times-radio"> 4-7 times a Year </label>
-                        <br>
-                        <p> How likely are you to recommend us to a friend? </p>
-                        <div>
-                            <input type="checkbox" id="extremely-likely-checkbox" name="extremely-likely">
-                            <label for="extremely-likely-checkbox"> Extremely likely</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="very-likely-checkbox" name="very-likely">
-                            <label for="very-likely-checkbox">very likely</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="not-likely-checkbox" name="not-likely">
-                            <label for="not-likely-checkbox"> Not likely</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="wont-checkbox" name="wont-likely">
-                            <label for="wont-checkbox"> Won't recommend </label>
-                        </div>
-                        <div>
-                            <input type="submit" value="Enter Competition">
-                        </div>
-
-                    </fieldset>
-                </form>
-            </div>
-        </div>    
+                    <input type="radio" id="0-2-times-radio" name="visit-frequency" required />
+                    <label for="0-2-times-radio"> 0-2 times a month </label>
+                    <br>
+                    <input type="radio" id="3-6-times-radio" name="visit-frequency" required />
+                    <label for="3-6-times-radio"> 3-6 times a month </label>
+                    <br>
+                    <input type="radio" id="2-4-times-radio" name="visit-frequency" required />
+                    <label for="2-4-times-radio"> 2-4 times a Year </label>
+                    <br>
+                    <input type="radio" id="4-7-times-radio" name="visit-frequency" required />
+                    <label for="4-7-times-radio"> 4-7 times a Year </label>
+                    <br>
+                    <p> How likely are you to recommend us to a friend? </p>
+                    <div>
+                        <input type="checkbox" id="extremely-likely-checkbox" name="extremely-likely">
+                        <label for="extremely-likely-checkbox"> Extremely likely</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="very-likely-checkbox" name="very-likely">
+                        <label for="very-likely-checkbox">very likely</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="not-likely-checkbox" name="not-likely">
+                        <label for="not-likely-checkbox"> Not likely</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="wont-checkbox" name="wont-likely">
+                        <label for="wont-checkbox"> Won't recommend </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enter Competition">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </section>
 
     <br>
 
-    <section id="contact">
-        <h2 class="text-center">Contact</h2>
-        <br>
-        <div class="contact-boxes-container">
-            <div class="contact-box-left">
-                <h3 class="text-center">Open times</h3>
 
-                <table class="text-center">
-                    <tr>
-                        <th></th>
-                        <th>Open</th>
-                        <th>Close</th>
-                    </tr>
-                    <tr>
-                        <td>Mon - Fri</td>
-                        <td>09:00</td>
-                        <td>18:00</td>
-                    </tr>
-                    <tr>
-                        <td>Weekend</td>
-                        <td>10:00</td>
-                        <td>17:00</td>
-                    </tr>
-                </table>
+    <section class="opening-times">
+        <h3 class="text-center">Open times</h3>
+
+        <table class="text-center">
+            <tr>
+                <th></th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+            <tr>
+                <td>Mon - Fri</td>
+                <td>09:00</td>
+                <td>18:00</td>
+            </tr>
+            <tr>
+                <td>Weekend</td>
+                <td>10:00</td>
+                <td>17:00</td>
+            </tr>
+        </table>
+    </section>
+    <div class="contact-boxes-container">
+        <br>
+        <div class="contact-box-right">
+            <h3>Get in touch</h3>
+            <div>
+                <span class="bold">Phone: </span>
+                <span>012 345 678 910</span>
             </div>
-            <br>
-            <div class="text-right contact-box-right">
-                <h3>Get in touch</h3>
-                <div>
-                    <span class="bold">Phone: </span>
-                    <span>012 345 678 910</span>
-                </div>
-                <div>
-                    <span class="bold">Email: </span>
-                    <span>email@snappybarber.com</span>
-                </div>
-            </div>
-            <div class="contact-box-center">
-                <h3>Address</h3>
-                <p>Snappy Barber<br>SkyCourt Shopping Centre<br>Shannon<br>Co.Clare</p>
+            <div>
+                <span class="bold">Email: </span>
+                <span>email@snappybarber.com</span>
             </div>
         </div>
+        <div class="contact-box-center">
+            <h3>Address</h3>
+            <p>Snappy Barber<br>SkyCourt Shopping Centre<br>Shannon<br>Co.Clare</p>
+        </div>
+    </div>
+
     </section>
 
     <section id="mapwrapper">
