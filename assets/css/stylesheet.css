@@ -182,7 +182,6 @@ td {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
-    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -278,7 +277,13 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #708090;
+    color: #3c3c3c;
+}
+
+/* confirmation page */
+
+.confirmation-box>p {
+    font-size: 2rem;
 }
 
 /* media queries */
@@ -304,7 +309,11 @@ footer {
 
 }
 
-@media (min-width: 1201px) and (max-width : 2200px) {
+@media (min-width: 1200px) and (max-width : 1600px) {
+
+    #menu {
+        text-size-adjust: 120%;
+    }
 
     #hero-outer {
         height: 600px;
@@ -330,26 +339,143 @@ footer {
 
     .contact-box-right,
     .contact-box-center {
-        margin: 0% -12% 4% 11%
+        margin: 0% -56% 4% 29%;
+        text-size-adjust: 134%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width : 2560px) {
+
+    #logo {
+        font-size-adjust: 600%;
     }
 
-
-    @media (min-width: 2201px) and (max-width : 5120px) {
-
-        #hero-outer {
-            height: 600px;
-            width: 90%;
-            margin-left: auto;
-        }
-
-        .hero-image {
-
-            height: 600px;
-            width: 90%;
-        }
-
-        .container {
-            margin: 0% 0% 12% 0;
-            background-color: rgba(60, 60, 60, 0.6);
-        }
+    #menu {
+        font: size adjust 200%; ;
     }
+
+    #menu {
+        text-size-adjust: 120%;
+    }
+
+    #hero-outer {
+        height: 1000px;
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .hero-image {
+        height: 1000px;
+        width: 90%;
+    }
+
+    #about-us {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    #about-us>h2 {
+        text-decoration: underline;
+        text-align: center;
+
+    }
+
+    #services-table {
+        margin: 2% 10% 0 0;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #3c3c3c;
+        width: 100%;
+        font-size: 300%;
+    }
+
+    .container {
+    margin: 4% 0% 12% 0;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+
+    .opening-time {
+    font-size: 1rem;
+}
+
+
+    .contact-box-right,
+    .contact-box-center {
+    margin: 0% -56% 4% 29%;
+    text-size-adjust: 134%;
+    font-size: 200%;
+}
+
+}
+
+@media (min-width: 2560px) and (max-width : 3440px) {
+
+    #logo {
+        font-size: 700%;
+    }
+
+    #menu {
+        font-size: 300%; ;
+    }
+
+    #hero-outer {
+        height: 1000px;
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .hero-image {
+        height: 1000px;
+        width: 90%;
+    }
+
+    .container {
+        margin: 0% 0% 12% 0;
+        background-color: rgba(60, 60, 60, 0.6);
+    }
+
+    #about-us {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        text-size-adjust: 300%;
+
+    }
+
+    #about-us>h2 {
+        text-decoration: underline;
+        text-align: center;
+        text-size-adjust: 300%;
+
+    }
+
+    #services-table {
+        margin: 2% 10% 0 0;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #3c3c3c;
+        width: 100%;
+        font-size: 400%;
+    }
+
+    .opening-times {
+        margin: 0 10% 0 0;
+        border-radius: 12px;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 300%;
+    }
+
+    .contact-box-right,
+    .contact-box-center {
+    margin: 0% -56% 4% 29%;
+    text-size-adjust: 134%;
+    font-size: 200%;
+    }
+}
