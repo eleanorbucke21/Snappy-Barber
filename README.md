@@ -20,8 +20,8 @@ HOMEPAGE
 
 GALLERY PAGE
 
--As a user I want to see pictures of the barbers previous work.
--As a user I want to see pictures of where the barbers work.
+- As a user I want to see pictures of the barbers previous work.
+- As a user I want to see pictures of where the barbers work.
 
 CONTACT PAGE
 
@@ -35,6 +35,10 @@ CONTACT PAGE
 * The other navigation links are to the right: Home and Services that link to different sections on the same page. Gallery and Contact will link to other pages.
 * The navigation is in a font that is modern and a color that contrasts with the background.
 * The navigation clearly tells the user the name of the barber shop and website makes the different sections of information easy to find.
+
+## Future Features ##
+
+- In the future I wouls like to add a slide show to the gallery page.
 
 ## The Header ##
 * The header shows the name of the club using the color chosen: Slate Grey. 
