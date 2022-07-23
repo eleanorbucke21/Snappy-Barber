@@ -347,11 +347,11 @@ footer {
 @media (min-width: 1600px) and (max-width : 2560px) {
 
     #logo {
-        font-size-adjust: 600%;
+        font-size: 600%;
     }
 
     #menu {
-        font: size adjust 200%; ;
+        font: 200%; ;
     }
 
     #menu {
