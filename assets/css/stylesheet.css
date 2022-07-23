@@ -198,7 +198,6 @@ td {
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    float: right;
 }
 
 .contact-box-center, .contact-box-right {
@@ -277,6 +276,7 @@ footer {
 }
 
 /* media queries */
+
 @media (min-width: 820px) and (max-width : 1200px) {
 
     #hero-outer {
