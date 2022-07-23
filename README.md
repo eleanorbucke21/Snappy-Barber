@@ -95,7 +95,10 @@ CONTACT PAGE
 
  * [Lighthouse] 
     	- Index Page
-            <img src="markdown-demo/index page.png">
+            "https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png"
+     - Gallery Page
+             "https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png"
+            
  ## Test cases
  ### Index Page
  
