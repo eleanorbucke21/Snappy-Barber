@@ -199,6 +199,8 @@ This website was published using GitHub Pages.
 - It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
 
 - Congratulations you have deployed your project!
+ 
+ This website was written on Gitpod.
 
 ## Credits
 
