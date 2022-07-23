@@ -107,14 +107,14 @@ CONTACT PAGE
  Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab
  
  ### Gallery Page
- Input | Output 
+| Input | Output |
     --- | --- 
- Clicked on Home in navigation bar. | It went to the index page.
- Clicked on Contact in navigation bar. | It went to the Contact page.
- Clicked on the logo in the header. | It went to the index page.
- Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
- Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
- Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
+| Clicked on Home in navigation bar. | It went to the index page. |
+| Clicked on Contact in navigation bar. | It went to the Contact page. |
+| Clicked on the logo in the header. | It went to the index page. |
+| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. |
+| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. |
+| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. |
  
  ### Contact Page
  Input | Output 
