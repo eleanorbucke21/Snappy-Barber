@@ -100,11 +100,11 @@ CONTACT PAGE
  ### Index Page
  Input | Output 
     --- | --- 
- Clicked on Gallery in navigation bar. | It went to the Gallery page.
- Clicked on Contact in navigation bar. | It went to the Contact page.
- Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab.
- Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab.
- Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab.
+ Clicked on Gallery in navigation bar. | It went to the Gallery page
+ Clicked on Contact in navigation bar. | It went to the Contact page
+ Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab
+ Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab
+ Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab
  
  ### Gallery Page
  Input | Output 
