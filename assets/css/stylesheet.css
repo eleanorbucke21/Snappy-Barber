@@ -1,56 +1,358 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header id="header">
-        <a href="index.html">
-            <h1 id="logo"> Snappy Barber <i class="fa-solid fa-scissors"></i> </h1>
-        </a>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="contact.html" class="active"> Contact</a>
-                </li>
-                <li>
-                    <a href="gallery.html"> Gallery</a>
-                </li>
-                <li>
-                    <a href="index.html"> Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
-    <section>
-        <div class="confirmation-box">
-            <p>Thank you for your entry. We will be in touch.</p>
-        </div>
-    </section>
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color: black;
+    margin: 2%;
+}
 
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/8084e45a7c.js" crossorigin="anonymous"></script>
+/* headings and logo */
 
-</body>
-</html>
+#header {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+    color: #000000;
+    padding-left: 5%;
+    padding: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.active {
+    border-bottom: 2px solid #000000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* Hero-image */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-image {
+
+    height: 500px;
+    width: 100%;
+    background: url('../images/pexels\ barbers.webp') no-repeat center;
+    background-size: contain;
+}
+
+
+
+/* about-us */
+
+#about-us {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    
+}
+
+
+
+#about-us>h2 {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.limit {
+    max-width: 90%;
+    padding-left: 5%;
+}
+
+.limit i {
+    color: #000000;
+}
+
+
+/* services table */
+
+#services-table {
+    margin: 50px 10% 0 0;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+table,
+th,
+td {
+    border: 2px;
+}
+
+th,
+td {
+    border-spacing: 30px;
+}
+
+/* competition */
+
+
+#container {
+    padding-top: 50px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#container>img {
+    max-width: 100%;
+}
+
+.comp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80%;
+    width: 90%;
+    padding-top: 43%;
+}
+
+
+.form-box {
+    margin: 44% 10% 0 0;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.form-box>h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    background-color: #708090;
+    color: #000000;
+}
+
+/* contact info */
+
+#contact {
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact>h2,
+h3 {
+    text-decoration: underline;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+    float: left;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-box-right {
+    width: 250px;
+    padding-top: 30px;
+    text-align: right;
+    margin-top: -20px;
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#photos>img {
+    padding: 2px;
+    width: 100%;
+}
+
+
+/* contact */
+
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.map-responsive {
+
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+}
+
+.map-responsive iframe {
+
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 50px;
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #708090;
+}
+
+/* media queries */
+@media (min-width: 992px) and (max-width : 1200px) {
+
+   #hero-outer {
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+   }
+
+   .hero-image {
+
+    height: 600px;
+    width: 90%;
+   }
+
+}
+
+@media (min-width: 1201px) and (max-width : 2200px) {
+
+    #hero-outer {
+     height: 600px;
+     width: 90%;
+     margin-left: auto;
+    }
+ 
+    .hero-image {
+ 
+     height: 600px;
+     width: 90%;
+    }
+ 
+ }
+
+ @media (min-width: 2201px) and (max-width : 5120px) {
+
+    #hero-outer {
+     height: 600px;
+     width: 90%;
+     margin-left: auto;
+    }
+ 
+    .hero-image {
+ 
+     height: 600px;
+     width: 90%;
+    }
+ 
+ }
+
