@@ -93,9 +93,16 @@ CONTACT PAGE
             alt="Valid CSS!" /> was used to test for error codes in the CSS.
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
- # Lighthouse
-    * Index Page (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png)
-    * Gallery Page (https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png)
+ ## Lighthouse
+
+    * Index Page 
+        <img src="markdown-demo/Index Mobile.png">
+    * Gallery Page 
+        <img src="markdown-demo/Gallery Mobile.png">
+    * Contact page
+        <img src="markdown-demo/Contact Page.png">
+    * Competition Page
+        <img src="markdown-demo/Competition Page.png">
           
             
  ## Test cases
