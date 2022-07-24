@@ -60,9 +60,9 @@ CONTACT PAGE
 * I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
 
 ## Wireframes ##
-<img src="markdown-demo/home.png" height="500px" width="200px">
-<img src="markdown-demo/Gallery.png" height="500px" width="200px">
-<img src="markdown-demo/Contact.png" height="500px" width="200px">
+<img src="markdown-demo/home.png" height="600px" width="900px">
+<img src="markdown-demo/Gallery.png" height="600px" width="900px">
+<img src="markdown-demo/Contact.png" height="600px" width="900px">
 
 ## Technologies
 
@@ -94,10 +94,10 @@ CONTACT PAGE
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
  ## Lighthouse
- * Index Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png">
- * Gallery Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png">
- * Contact Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Contact_Page_wyupcl.png">
- * Competition Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Competition_Page_svh581.png">
+ * Index Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png" height="600px" width="175px">
+ * Gallery Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png" height="600px" width="175px">
+ * Contact Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Contact_Page_wyupcl.png" height="600px" width="175px">
+ * Competition Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Competition_Page_svh581.png" height="600px" width="175px">
  
           
             
