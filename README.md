@@ -60,9 +60,9 @@ CONTACT PAGE
 * I have chosen black and slategrey as a color scheme to enhance the modern look that the font will give.
 
 ## Wireframes ##
-<img src="markdown-demo/home.png">
-<img src="markdown-demo/Gallery.png">
-<img src="markdown-demo/Contact.png">
+<img src="markdown-demo/home.png" height="500px" width="200px">
+<img src="markdown-demo/Gallery.png" height="500px" width="200px">
+<img src="markdown-demo/Contact.png" height="500px" width="200px">
 
 ## Technologies
 
@@ -93,16 +93,6 @@ CONTACT PAGE
             alt="Valid CSS!" /> was used to test for error codes in the CSS.
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
- ## Lighthouse
-
-    * Index Page 
-        <img src="markdown-demo/Index Mobile.png" height="500px" width="200px">
-    * Gallery Page 
-        <img src="markdown-demo/Gallery Mobile.png" height="500px" width="200px">
-    * Contact page
-        <img src="markdown-demo/Contact Page.png" height="500px" width="200px">
-    * Competition Page
-        <img src="markdown-demo/Competition Page.png" height="500px" width="200px">
           
             
  ## Test cases
