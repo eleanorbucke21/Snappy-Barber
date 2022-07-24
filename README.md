@@ -95,12 +95,19 @@ CONTACT PAGE
 
  ## Lighthouse
  * Index Page 
+ 
  <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png" height="175px" width="600px">
+ 
  * Gallery Page 
+ 
  <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png" height="175px" width="600px">
+ 
  * Contact Page 
+ 
  <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Contact_Page_wyupcl.png" height="175px" width="600px">
+
  * Competition Page 
+ 
  <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Competition_Page_svh581.png" height="175px" width="600px">
  
           
