@@ -197,6 +197,8 @@ CONTACT PAGE
     iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
 
 ## Deployment
+ 
+ ### Github
 
 This website was published using GitHub Pages.
 
@@ -217,8 +219,16 @@ This website was published using GitHub Pages.
 - Congratulations you have deployed your project!
  
  This website was written on Gitpod.
+ 
+ ### Gitpod
+ - Navigate to [Gitpod] through [GitHub](https://github.com/), [GitLab](https://www.gitlab.com/) or [Bitbucket](https://bitbucket.org/).
+-In the browser’s address bar, prefix the entire URL with gitpod.io/# and press Enter.
+-For example, gitpod.io/#https://github.com/gitpod-io/website
+-We recommend you install the Gitpod browser extension to make this a one-click operation.
+-Sign in with one of the listed providers and let the workspace start up.
+-Congratulations, you have started your first of many ephemeral developer environments!
 
-## Credits
+ ## Credits
 
 ### Media
 
