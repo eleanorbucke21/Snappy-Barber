@@ -94,8 +94,8 @@ CONTACT PAGE
  *[https://validator.w3.org/] was used to test for error codes in the HTML.
 
  # Lighthouse
-    * Index Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png">
-    * Gallery Page <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png">
+    * Index Page <a href="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png">
+    * Gallery Page <a href="https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_160,w_600/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png">
           
             
  ## Test cases
