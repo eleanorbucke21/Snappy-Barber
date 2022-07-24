@@ -96,13 +96,13 @@ CONTACT PAGE
  ## Lighthouse
 
     * Index Page 
-        <img src="markdown-demo/Index Mobile.png">
+        <img src="markdown-demo/Index Mobile.png" height="500px" width="200px">
     * Gallery Page 
-        <img src="markdown-demo/Gallery Mobile.png">
+        <img src="markdown-demo/Gallery Mobile.png" height="500px" width="200px">
     * Contact page
-        <img src="markdown-demo/Contact Page.png">
+        <img src="markdown-demo/Contact Page.png" height="500px" width="200px">
     * Competition Page
-        <img src="markdown-demo/Competition Page.png">
+        <img src="markdown-demo/Competition Page.png" height="500px" width="200px">
           
             
  ## Test cases
