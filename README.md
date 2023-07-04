@@ -8,10 +8,35 @@ Users of the website will be able to find all the information they need to know 
 
 :open_file_folder: [Github Repository] (https://github.com/eleanorbucke21/Snappy-Barber)
 
-## UX 
+**TABLE OF CONTENTS**
+* [USER EXPERIENCE](#user-experience)
+* [User Stories](#user-stories)
+* [Features](#features)
+    * [Navigation](##Navigation)
+    * [Header](##Header)
+    * [Services](##Services)
+    * [Contact](##Contact)
+    * [Competition](##Competition)
+* [Future Features](#ufuture-featuresu)
+* [Typographyand Color Scheme](#typography-and-color-scheme)
+    * [Font](##Font)
+    * [Color Scheme](##color)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks Used](#frameworks-used)
+    * [Databases Used](#databases-used)
+    * [Libraries and Packages Used](#libraries-and-packages-used)
+    * [Programmes and Applications Used](#programmes-and-applications-used)
+    * [Cloud Application Platforms Used](#cloud-platforms-used)
+    * [Cloud Storage Services Used](#cloud-storage-services-used)
+---
 
-### User stories
+<br>
 
+# User Experience
+
+### <u>User Stories</u>
+<br>
 HOMEPAGE
 
 - As a user I want to have a navigation bar so I can easily get to different pages.
@@ -29,23 +54,27 @@ CONTACT PAGE
 - As a user I would like to see where the shop is situated on a map.
 - As a user I would like to enter a competition for free hair cuts.
 
-# Features #
-## Navigation ##
+# Features 
+## Navigation
 * Featured at the top of the page, the navigation shows the Barber shop name in the left corner.
 * The other navigation links are to the right: Home and Services that link to different sections on the same page. Gallery and Contact will link to other pages.
 * The navigation is in a font that is modern and a color that contrasts with the background.
 * The navigation clearly tells the user the name of the barber shop and website makes the different sections of information easy to find.
-## The Header ##
+<br>
+
+## Header
 * The header shows the name of the club using the color chosen: Slate Grey. 
 * The header explains that is a barber shop.
 * This section provides the user with clear information about who the site is for.
-## The Services section ##
+<br>
+
+## Services
 * The services give prices and what they offer. 
 *	It gives a description of the service along with the price. 
-## The contact section ##
+## Contact
 * The contact section encourages users to get in touch and provides a phone number, email address and street where they can be found.
 * It includes a google maps image of where they can be found.
-## The competition section ##
+## Competition
 * This section is a form that users must enter their name, email and phone number in order to submit.
 * It will consist of radio button answers.
 
@@ -53,23 +82,36 @@ CONTACT PAGE
 
 - In the future I wouls like to add a slide show to the gallery page.
 
+---
 # Typography and color scheme #
-## Font ##
-* Poppind and Roboto were used as a font as they give a modern look to the page.
- ## Color scheme ##
-* Black and slategrey were used as a color scheme to enhance the modern look that the font will give.
+## Font
+- [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) and [Roborto](https://fonts.google.com/specimen/Roboto) were used as a font as they give a modern look to the page.
 
-## Wireframes ##
+## Color scheme
+- Black and slategrey were used as a color scheme to enhance the modern look that the font will give.
+
+## Wireframes
+
+<br>
+
+### <u>Index</u>
 <img src="markdown-demo/home.png" height="900px" width="700px">
+
+<br>
+
+### <u>Gallery</u>
 <img src="markdown-demo/Gallery.png" height="600px" width="700px">
+
+<br>
+
+### <u>Contact</u>
 <img src="markdown-demo/Contact.png" height="600px" width="700px">
 
-## Technologies
-
-### Languages used
-
+---
+# <strong>Technologies</strong>
+---
+### <u>Languages used</u>
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - Add content and formatting to web page.
-
 - [CSS](https://en.wikipedia.org/wiki/CSS) - Add styling and colours to web page.
 
 ### Frameworks, Libraries and Programs Used
@@ -84,120 +126,17 @@ CONTACT PAGE
 
 - [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
 
-## Testing
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements, and to test responsiveness in different screen sizes.
-* [W3C CSS Validator] <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" /> was used to test for error codes in the CSS.
- *[https://validator.w3.org/] was used to test for error codes in the HTML.
+---
+# **TESTING**
+Please refer to [TESTING.md](./TESTING.md) file for:
+* Automated Testing and Validation Results
+* Manual Testing and Results
 
- ## Lighthouse
- * Index Page 
- 
- <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613760/Snappy/Lighthouse/Index_Mobile_ibs1r6.png" height="175px" width="600px">
- 
- * Gallery Page 
- 
- <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658613986/Snappy/Lighthouse/Gallery_Mobile_bbx0iu.png" height="175px" width="600px">
- 
- * Contact Page 
- 
- <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Contact_Page_wyupcl.png" height="175px" width="600px">
+<br/>
 
- * Competition Page 
- 
- <img src="https://res.cloudinary.com/dwfsh0lgy/image/upload/v1658677263/Snappy/Lighthouse/Competition_Page_svh581.png" height="175px" width="600px">
- 
-          
-            
- ## Test cases
- ### Index Page
- 
-| Input | Output | Pass/Fail |
-|--- | --- | --- |
-|  Clicked on Gallery in navigation bar. | It went to the Gallery page | Pass
-| Clicked on Contact in navigation bar. | It went to the Contact page | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab | Pass
- 
- ### Gallery Page
- 
-| Input | Output | Pass/Fail |
-|--- | --- | --- |
-| Clicked on Home in navigation bar. | It went to the index page. | Pass
-| Clicked on Contact in navigation bar. | It went to the Contact page. | Pass
-| Clicked on the logo in the header. | It went to the index page. | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | Pass
- 
- ### Contact Page
- 
-| Input | Output | Pass/Fail |
-|--- | --- | --- |
-| Clicked on Home in navigation bar. | It went to the index page. | Pass
-| Clicked on the logo in the header. | It went to the index page. | Pass
-| Clicked on Contact in navigation bar. | It went to the Contact page. | Pass
-| Clicked on Gallery in navigation bar. | It went to the Gallery page. | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | Pass
-| Clicked on Enter Competition button with no entries | It said please out field in name. | Pass
-| Clicked on Enter Competition button with name filled in | It said please out field in email. | Pass
-| Clicked on Enter Competition button with email filled in |  It said please out field in name. | Pass
-| Clicked on Enter Competition with form filled out | It went to the Confirmation page. | Pass
- 
- ### Competition Page
- 
-| Input | Output | Pass/Fail |
-|--- | --- | --- |
-| Clicked on Home in navigation bar. | It went to the index page. | Pass
-| Clicked on Gallery in navigation bar. | It went to the Gallery page. | Pass
-| Clicked on the logo in the header. | It went to the index page. | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | Pass
- 
-## Responsiveness
- [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
- 
- The site has been tested on various sizes such as those listed below.
- 
- Mobile:
- 375x667 / 360x740 / 412x915 / 414x896
- 
- Tablet:
- 768x1024 / 820x1180 / 912x1368 
- 
- Monitor:
- 1280x1024 / 1600x900 / 2560x1440 / 3440x1440
- 
- ### Manual Testing
-
-* Browser Compatibility
-
-     Browser | Outcome | Pass/Fail 
-     --- | --- | ---
-     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
-     Safari | No appearance, responsiveness nor functionality issues. | Pass
-     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
-     Firefox | No appearance, responsiveness nor functionality issues. | Pass
-     
- * Device compatibility
-
-     Device | Outcome | Pass/Fail
-    --- | --- | ---
-    Laptop | No appearance, responsiveness nor functionality issues. | Pass
-    ipad mini | No appearance, responsiveness nor functionality issues. | Pass
-    Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | Pass
-    Samsung s20 | No appearance, responsiveness nor functionality issues. | Pass
-    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
-
+---
 ## Deployment
- 
+--- 
  ### Github
 
 This website was published using GitHub Pages.
@@ -228,22 +167,17 @@ This website was published using GitHub Pages.
 - Sign in with one of the listed providers and let the workspace start up.
 - Congratulations, you have started your first of many ephemeral developer environments!
 
+---
  ## Credits
-
+--- 
 ### Media
 
--[Barber hair tools](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_hair_tools_ikh4v6.webp)
--[Man getting straight razor shaved](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338281/Snappy/gallery/pexels_man_straight_razor_vj2ffo.webp)
--[Man getting beard trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_beard_trim_jbfody.webp)
--[Barber cleaning mans collar](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339412/Snappy/gallery/pexels_barber_cleaning_mans_collar_oyvoaz.webp)
--[straight razor and shaving cream brush](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_shaving_brish_and_straight_razor_ocgrx3.webp)
--[Man getting hair trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338280/Snappy/gallery/pexels_hair_spray_ex6bw3.webp)
--[Image of a barber pole outside the shop](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338902/Snappy/gallery/Pexels_Barber_Pole_wjjy0u.webp)
--[Customer getting hair trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_fringe_trim_btjejb.webp)
--[Man getting beard shaved by straight razor](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339026/Snappy/gallery/ezgif.com-gif-maker_tueq6h.webp)
-
-
-### Content
-- [Poppins - Google font](https://fonts.google.com/specimen/Roboto)
-
-- [Roborto - Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins)
+- [Barber hair tools](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_hair_tools_ikh4v6.webp) <br>
+- [Man getting straight razor shaved](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338281/Snappy/gallery/pexels_man_straight_razor_vj2ffo.webp) <br>
+- [Man getting beard trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_beard_trim_jbfody.webp) <br>
+- [Barber cleaning mans collar](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339412/Snappy/gallery/pexels_barber_cleaning_mans_collar_oyvoaz.webp) <br> 
+- [straight razor and shaving cream brush](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338281/Snappy/gallery/pexels_shaving_brish_and_straight_razor_ocgrx3.webp) <br> 
+- [Man getting hair trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338280/Snappy/gallery/pexels_hair_spray_ex6bw3.webp)<br>
+- [Image of a barber pole outside the shop](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_2500,w_1600/v1658338902/Snappy/gallery/Pexels_Barber_Pole_wjjy0u.webp) <br> 
+- [Customer getting hair trimmed](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658338280/Snappy/gallery/pexels_fringe_trim_btjejb.webp) <br>
+- [Man getting beard shaved by straight razor](https://res.cloudinary.com/dwfsh0lgy/image/upload/c_scale,h_1600,w_2500/v1658339026/Snappy/gallery/ezgif.com-gif-maker_tueq6h.webp)
