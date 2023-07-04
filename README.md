@@ -29,6 +29,9 @@ Users of the website will be able to find all the information they need to know 
     * [Programmes and Applications Used](#programmes-and-applications-used)
     * [Cloud Application Platforms Used](#cloud-platforms-used)
     * [Cloud Storage Services Used](#cloud-storage-services-used)
+* [Testing](#testing)
+* [Credits](#credits)
+     * [Media](#media)
 ---
 
 <br>
