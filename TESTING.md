@@ -71,10 +71,10 @@ Browser Compatibility:
 
 Browser | Outcome | Pass/Fail 
  --- | --- | ---
-Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
-Safari | No appearance, responsiveness nor functionality issues. | Pass
-Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
-Firefox | No appearance, responsiveness nor functionality issues. | Pass
+Google Chrome | No appearance, responsiveness nor functionality issues.| :heavy_check_mark:
+Safari | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+Microsoft Edge | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+Firefox | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
 
 <br>
 
@@ -82,22 +82,22 @@ Device compatibility:
 
 Device | Outcome | Pass/Fail
 --- | --- | ---
-Laptop | No appearance, responsiveness nor functionality issues. | Pass
-ipad mini | No appearance, responsiveness nor functionality issues. | Pass
-Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | Pass
-Samsung s20 | No appearance, responsiveness nor functionality issues. | Pass
-iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
+Laptop | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+ipad mini | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+Lenovo M1 Tab | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+Samsung s20 | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
+iphone 12 pro | No appearance, responsiveness nor functionality issues. | :heavy_check_mark:
             
  ## Test cases
  ### Index Page
  
 | Input | Output | Pass/Fail |
 |--- | --- | --- |
-|  Clicked on Gallery in navigation bar. | It went to the Gallery page | Pass
-| Clicked on Contact in navigation bar. | It went to the Contact page | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab | Pass
+|  Clicked on Gallery in navigation bar. | It went to the Gallery page | :heavy_check_mark:
+| Clicked on Contact in navigation bar. | It went to the Contact page | :heavy_check_mark:
+| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab | :heavy_check_mark:
+| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab | :heavy_check_mark:
+| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab | :heavy_check_mark:
  
  ### Gallery Page
  
@@ -130,10 +130,10 @@ iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
  
 | Input | Output | Pass/Fail |
 |--- | --- | --- |
-| Clicked on Home in navigation bar. | It went to the index page. | Pass
-| Clicked on Gallery in navigation bar. | It went to the Gallery page. | Pass
+| Clicked on Home in navigation bar. | It went to the index page. | :heavy_check_mark:
+| Clicked on Gallery in navigation bar. | It went to the Gallery page. | :heavy_check_mark:
 | Clicked on the logo in the header. | It went to the index page. | Pass
-| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. | Pass
-| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. | Pass
-| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | Pass
+| Clicked on Facebook icon in Footer.  | It opened Facebook in a new tab. | :heavy_check_mark:
+| Clicked on Instagram icon in Footer.  | It opened Instagram in a new tab. | :heavy_check_mark:
+| Clicked on Twitter icon in Footer.  | It opened Twitter in a new tab. | :heavy_check_mark:
  
