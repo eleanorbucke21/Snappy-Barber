@@ -1,5 +1,7 @@
 <img src="markdown-demo/Am i responsive.png">
 
+---
+
 # Snappy Barber #
 The barber website is a page designed to showcase the barbers work and services. It is aimed at men who want a haircut or beard attended to. 
 Users of the website will be able to find all the information they need to know about the barber: About the barber, pricing, contact information. The site is targeted towards men and boys who want a hair cut and beard attended to. 
@@ -23,22 +25,15 @@ Users of the website will be able to find all the information they need to know 
     * [Color Scheme](##color)
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
-    * [Frameworks Used](#frameworks-used)
     * [Databases Used](#databases-used)
-    * [Libraries and Packages Used](#libraries-and-packages-used)
     * [Programmes and Applications Used](#programmes-and-applications-used)
-    * [Cloud Application Platforms Used](#cloud-platforms-used)
-    * [Cloud Storage Services Used](#cloud-storage-services-used)
-* [Testing](#testing)
-* [Credits](#credits)
-     * [Media](#media)
 ---
 
 <br>
 
 # User Experience
 
-### <u>User Stories</u>
+## <u>User Stories</u>
 <br>
 HOMEPAGE
 
@@ -97,27 +92,21 @@ CONTACT PAGE
 
 <br>
 
-### <u>Index</u>
-<img src="markdown-demo/home.png" height="900px" width="700px">
+| Index | Gallery | Contact |
+|--- | --- | --- |
+| <img src="markdown-demo/home.png"> |<img src="markdown-demo/Gallery.png"> | <img src="markdown-demo/Contact.png"> |
 
-<br>
-
-### <u>Gallery</u>
-<img src="markdown-demo/Gallery.png" height="600px" width="700px">
-
-<br>
-
-### <u>Contact</u>
-<img src="markdown-demo/Contact.png" height="600px" width="700px">
 
 ---
 # <strong>Technologies</strong>
 ---
-### <u>Languages used</u>
+## Languages used
 - [HTML](https://en.wikipedia.org/wiki/HTML5) - Add content and formatting to web page.
 - [CSS](https://en.wikipedia.org/wiki/CSS) - Add styling and colours to web page.
 
-### Frameworks, Libraries and Programs Used
+## Databases Used
+- [Cloudinary](https://cloudinary.com/) - a cloud-based image and video management services.
+## Programmes and Applications Used
 
 - [Gitpod](https://gitpod.io/) - web-based editor optimised for debugging, testing, syntax highlighting and extension support
 
@@ -128,6 +117,8 @@ CONTACT PAGE
 - [Fontawesome](https://fontawesome.com/) - to insert icons in the website to make site more visually appealing and easy to navigate.
 
 - [Google Fonts](https://fonts.google.com/) - used to import fonts in the style.css stylesheet.
+
+- [Pexels](https://www.pexels.com/) -  a provider of stock photography and stock footage. 
 
 ---
 # **TESTING**
@@ -169,6 +160,8 @@ This website was published using GitHub Pages.
 - We recommend you install the Gitpod browser extension to make this a one-click operation.
 - Sign in with one of the listed providers and let the workspace start up.
 - Congratulations, you have started your first of many ephemeral developer environments!
+
+<br>
 
 ---
  ## Credits
