@@ -215,20 +215,32 @@ td {
 
 /* gallery */
 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 2px;
-    padding-left: 30px;
-    padding-right: 30px;
+#gallery {
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
-#photos>img {
-    padding: 2px;
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 33%;
+    max-width: 32%;
+    padding: 0 4px;
+}
+  
+.column img {
+    object-fit: contain;
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
 }
-
 
 /* contact us page - map */
 
@@ -479,3 +491,24 @@ footer {
     font-size: 200%;
     }
 }
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    #gallery {
+        position: relative;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    #gallery {
+        position: relative;
+    }
+  }
